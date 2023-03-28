@@ -1,0 +1,32 @@
+{
+  "name": "safe-exit-tickets",
+  "version": "1.0.0",
+  "description": "An exit tickets generator (pre-signed transactions) for Safe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xjjpa/safe-exit-tickets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xjjpa/safe-exit-tickets/issues"
+  },
+  "homepage": "https://github.com/0xjjpa/safe-exit-tickets#readme",
+  "dependencies": {
+    "@safe-global/safe-core-sdk": "^3.3.2",
+    "@safe-global/safe-core-sdk-types": "^1.9.0",
+    "@safe-global/safe-ethers-lib": "^1.9.2",
+    "@safe-global/safe-service-client": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "ethers": "5.7.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
